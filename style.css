@@ -89,13 +89,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px; 
+    margin: 10px;
     height: 80px;
     width: 50%;
     gap: 24px;
     font-size: 16px;
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30); 
+    background: rgba(255, 255, 255, 0.30);
 }
 
 .input-tipe {
@@ -120,7 +120,7 @@ select {
     font-weight: 400;
 }
 
-.but {
+.button { 
     width: 150px;
     height: 40px;
     border: none;
@@ -129,9 +129,58 @@ select {
     color: white;
     font-size: 18px;
     cursor: pointer;
-
 }
 
-/* .but span {
-    color: #FFF;
-} */
+/* >>>>>>>>>>>>>>>>>> start Tours<<<<<<<<<<<<<<<<<<< */
+.Tours {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    width: 97%;
+    height: 550px;
+}
+
+.Tourstext {
+    margin: auto;
+    height: 500px;
+    width: 41%;
+    border-radius: 16px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.Tourstext h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.Tourstext p {
+    padding: 24px 0 32px 0;
+}
+
+.Tours-img {
+    margin: auto;
+    height: 500px;
+    width: 40%;
+    border-radius: 16px;
+    background: url('./Images/Rectangle\ 4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sceonddivimg1 {
+    margin: auto;
+    height: 500px;
+    width: 40%;
+    background-color: antiquewhite;
+    border-radius: 16px;
+    background: url('Images/Rectangle\ 4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
