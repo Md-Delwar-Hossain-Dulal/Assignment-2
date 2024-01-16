@@ -120,7 +120,8 @@ select {
     font-weight: 400;
 }
 
-.button { 
+.button {
+    /* universal button */
     width: 150px;
     height: 40px;
     border: none;
@@ -183,4 +184,26 @@ select {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+/*  >>>>>>>>>>> Start Destination <<<<<<<<< */
+.Destination {
+    padding: 20px;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+.Destination h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.Destination p {
+    color: rgba(19, 19, 24, 0.70);
+    width: 643px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
 }
