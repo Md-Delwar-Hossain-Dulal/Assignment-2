@@ -242,7 +242,6 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-
     text-align: center;
 }
 
@@ -257,7 +256,6 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-
     text-align: center;
 }
 
@@ -317,30 +315,29 @@ h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-
     text-align: center;
 }
 
 /* >>>>>>>>>>> Why Chose us <<<<<<<<< */
-onlydiv {
+.Chose-us {
     min-height: 550px;
     margin: auto;
     width: 90%;
-    /* background-color: bisque; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-
     padding: 20px;
     text-align: left;
 }
 
-.onlydivimg {
+.divimg {
     height: 100px;
     width: 100px;
     padding-bottom: 50px;
     border-radius: 20px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
 }
 
 .div1 {
@@ -360,7 +357,6 @@ onlydiv {
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
-
     height: 270px;
     border-radius: 5px;
     width: 45%;
@@ -399,3 +395,61 @@ onlydiv {
     color: #131318;
     padding: 0;
 } */
+/* >>>>>>>>>>>>>>>> start  <<<<<<<<<<<<<<<<<<<<<<<<<< */
+.Simple {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    width: 97%;
+    height: 550px;
+}
+
+.Simple-text {
+    margin: auto;
+    height: 500px;
+    width: 41%;
+    border-radius: 16px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.Simple h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    width: 448px;
+}
+
+.Simple-p {
+    width: 532px;
+    color: #5A5A5D;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 24px 0 32px 0;
+}
+
+.Simple li {
+    width: 518px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.Simple button {
+    margin-top: 46px;
+}
+
+.Simpleimg {
+    margin: auto;
+    height: 500px;
+    width: 40%;
+    border-radius: 16px;
+    background: url('./Images/Group\ 40089.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
