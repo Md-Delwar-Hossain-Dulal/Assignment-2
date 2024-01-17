@@ -38,7 +38,6 @@
     font-size: 18px;
     font-weight: 400;
     color: var(--Dark-02, #424247);
-
 }
 
 .text-yellow {
@@ -381,21 +380,6 @@ h4 {
     line-height: 20px;
 }
 
-/* .pee {
-    color: #5A5A5D;
-    padding: 10px 0;
-    font-weight: 400;
-    line-height: 26px;
-}
-
-.pex {
-    text-align: left;
-    font-size: 30px;
-    font-weight: 800;
-    color: #131318;
-    padding: 0;
-} */
-/* >>>>>>>>>>>>>>>> start  <<<<<<<<<<<<<<<<<<<<<<<<<< */
 .Simple {
     display: flex;
     margin-top: 70px;
@@ -439,6 +423,7 @@ h4 {
     font-weight: 700;
     line-height: 26px;
 }
+
 .Simple button {
     margin-top: 46px;
 }
@@ -452,4 +437,114 @@ h4 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+/* >>>>>>>>>>>>>>>>>><<<<<<<<<<<<<< */
+
+.Newsletter {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.Newsletter-text {
+    border-radius: 16px;
+    padding-left: 130px;
+    padding-top: 40px;
+    border: 1px solid #FF5400;
+    width: 672px;
+    height: 380px;
+}
+
+.Newsletter h6 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 16px;
+}
+
+.Newsletter p {
+    width: 350px;
+    color: #5A5A5D;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 25px;
+}
+
+.Newsletter hr {
+    width: 470px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.input {
+    margin-top: 24px;
+    width: 100px;
+    height: 52px;
+    flex-direction: column;
+    width: 70%;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.Newsletter-img {
+    background-image: url('Images/Rectangle\ 8\ \(1\).png');
+    width: 672px;
+    height: 422px;
+}
+
+.but {
+    width: 70%;
+    margin-top: 25px;
+    /* padding: 20px solid #FF5400; */
+    padding: 14px 0 13px 0px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #FF5400;
+    cursor: pointer;
+}
+
+/*>>>>>>>>>>>>>>>>>footer<<<<<<<<<<<<<<<<<<<<<< */
+.footer {
+    width: 1500px;
+    height: 150px;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    padding: 200px;
+    margin: 2px solid red;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-text {
+    width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    /* padding: 15px 0 15px 0px; */
+    line-height: 26px;
+}
+
+.footer-icon {
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+}
+
+.rights {
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 300;
 }
