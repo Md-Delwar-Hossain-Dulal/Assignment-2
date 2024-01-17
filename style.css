@@ -510,41 +510,42 @@ h4 {
 
 /*>>>>>>>>>>>>>>>>>footer<<<<<<<<<<<<<<<<<<<<<< */
 .footer {
-    width: 1500px;
-    height: 150px;
-    /* justify-content: center;
+    width: 97%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 300px;
     align-items: center;
-    text-align: center; */
-    padding: 200px;
-    margin: 2px solid red;
+    text-align: center;
+    padding: 50px;
     background-color: rgba(19, 19, 24, 0.05);
 }
 
 .footer-logo {
     display: flex;
     align-items: center;
+
 }
 
 .footer-text {
     width: 769px;
     color: #5A5A5D;
-    text-align: center;
     font-size: 16px;
-    /* padding: 15px 0 15px 0px; */
     line-height: 26px;
+    padding: 25px 0px;
 }
 
 .footer-icon {
-    width: 200px;
-    height: 50px;
+    display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
 .rights {
     color: #131318;
     font-family: Inter;
     font-size: 16px;
-    text-align: center;
-    padding-top: 50px;
+    padding-top: 100px;
     font-weight: 300;
 }
